@@ -8,5 +8,8 @@ CONSTANTS.ENDPOINT.GRID = "/grid";
 
 CONSTANTS.ENDPOINT.MASTERDETAIL = "/masterdetail";
 
+CONSTANTS.ENDPOINT.GLOBAL = "/global";
+
+CONSTANTS.ENDPOINT.COUNTRY = "/country";
 
 module.exports = CONSTANTS;
