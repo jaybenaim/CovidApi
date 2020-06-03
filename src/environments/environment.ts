@@ -10,10 +10,10 @@
 export const environment = {
   production: false,
   endpoint: {
-    list : '/api/list',
-    grid : '/api/grid',
-    masterdetail : '/api/masterdetail',
-  }
+    list: "/api/list",
+    grid: "/api/grid",
+    masterdetail: "/api/summary/country?country=Canada",
+  },
 };
 
 /*

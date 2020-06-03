@@ -1,11 +1,12 @@
 export interface ISampleOrder {
-  title: string;
-  id: number;
-  status: string;
-  orderDate: string;
-  shipTo: string;
-  orderTotal: number;
-  shortDescription: string;
-  longDescription: string;
-  imageSrc?: string;
+  Country: string;
+  CountryCode: string;
+  Slug: string;
+  NewConfirmed: number;
+  TotalConfirmed: number;
+  NewDeaths: number;
+  TotalDeaths: number;
+  NewRecovered: number;
+  TotalRecovered: number;
+  Date: string;
 }

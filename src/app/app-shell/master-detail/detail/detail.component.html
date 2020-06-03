@@ -1,19 +1,20 @@
 ﻿<div class="row heading">
   <div class="col">
-    <h3 class="ml-3 mb-4">{{ sampleOrder.title }}</h3>
+    <h3 class="ml-3 mb-4">{{ sampleOrder.Country }}</h3>
+    <span>{{ sampleOrder.Date }}</span>
   </div>
 </div>
 <div class="row">
   <div class="col-md-8 col-12 ml-3 mb-5 mt-3">
-    <p class="title">Status</p>
-    <p>{{ sampleOrder.status }}</p>
-    <p class="title">Order Date</p>
-    <p>{{ sampleOrder.orderDate }}</p>
-    <p class="title">Ship To</p>
-    <p>{{ sampleOrder.shipTo }}</p>
-    <p class="title">Order Total</p>
-    <p>{{ sampleOrder.orderTotal }}</p>
-    <p class="title">Description</p>
-    <p>{{ sampleOrder.longDescription }}</p>
+    <p class="title">Total Confirmed</p>
+    <p>{{ sampleOrder.TotalConfirmed }}</p>
+    <p class="title">New Confirmed</p>
+    <p>{{ sampleOrder.NewConfirmed }}</p>
+    <p class="title">Total Deaths</p>
+    <p>{{ sampleOrder.TotalDeaths }}</p>
+    <p class="title">New Deaths</p>
+    <p>{{ sampleOrder.NewDeaths }}</p>
+    <p class="title">Total Recovered</p>
+    <p>{{ sampleOrder.TotalRecovered }}</p>
   </div>
 </div>
